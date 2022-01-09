@@ -1,8 +1,10 @@
+This code is based on the repositorie https://github.com/KTH-IV1351/jdbc-bank written by Leif Lindbäck.
+Authors of this altered code is Niloofar Rahmani and Yohanna Sundin
+2022-01-10
+
 # A JDBC application with an appropriately layered architecture
 
 This is an example of how an integration layer can be used to organize an application containing database calls.
-
-_Unaltered README_
 
 ## How to execute
 
