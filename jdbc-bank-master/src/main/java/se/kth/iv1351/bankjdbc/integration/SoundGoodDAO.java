@@ -120,7 +120,7 @@ public class SoundGoodDAO {
                 " SELECT COUNT(*) FROM instrument" +
                 " WHERE instrument.instrument_id = ? AND instrument.instrument_id NOT IN" +
                 " (SELECT instrument_id FROM rentingInstrument" +
-                " WHERE CURRENT_DATE < to_date AND  CURRENT_DATE > from_date)");
+                " WHERE CURRENT_DATE <= to_date AND  CURRENT_DATE >= from_date)");
         /**
          * Registers a new rental to rentingInstruments with the request of student_id,
          * with requested instrument_id. from_date is set to current_date and default
